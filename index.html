@@ -7,24 +7,26 @@
         <title>About me project</title>
         <style>
             p {
-                color:blueviolet;
+                color:rgb(0, 0, 0);
             }
             h1 {
-                color:cyan;
-            }
-            h3 {
-                color:darkgoldenrod;
+                color:rgb(0, 0, 0);
             }
         </style>
     </head>
     <body>
         <h1>About me</h1>
-        <p>Hello, my name is Caleb I am a student currently learning HTML and CSS. I like gaming and anime and music.</p>
+        <p>
+            Hello, my name is Caleb I am a student currently learning HTML and CSS. I like gaming and anime and music.
+             I went o school at HomeLife academy which is a homeschooling orginization in memphis.
+            I graduated highschool this year and now I am taking classes in Codeschool.
+        </p>
 <script>
     // Three prompts
     let nameEntered = prompt("Please type your name here");
     alert("Ok let's see how many questions you can get right" + " " + nameEntered );  
     // console.log(nameEntered);
+
 
     let wasIborn = true;
 
@@ -33,42 +35,45 @@
     {
         let wasBorn = prompt("Was I born in 2003");
         if (wasBorn.toUpperCase() === 'Y' || wasBorn.toUpperCase() === "YES") {
-            wasIborn = false;
-            
+            wasIborn = false;   
         }
     }
 
-    let doMusic
+
+    let doMusic = true;
 
     while (doMusic)
     {
-        let doIMusic = prompt("Do I like music");
-        if (doIMusic.toUpperCase() === 'Y' || doIMusic.toUpperCase() === "YES") {
+        let doMusicYes = prompt("Do I like instrumental music?");
+        if (doMusicYes.toUpperCase() === 'Y' || doMusicYes.toUpperCase() === "YES") {
             doMusic = false;
         }
     }
 
-    let publicSchool
 
-    while (publicScool)
+    let publicSchool = true;
+
+    while (publicSchool)
     {
-        let homeSchool = prompt("Did I go to public school");
-        if (homeSchool.toLowerCase() === 'N' || homeSchool.toLowerCase() === "NO") {
+        let homeSchool = prompt("Did i go to public school?");
+        if (homeSchool.toUpperCase() === 'N' || homeSchool.toUpperCase() === "NO") {
             publicSchool = false;
         }
     }
 
-    let am22
+
+    let am22 = true;
 
     while (am22)
     {
-        let am22 = prompt("Am I 22?");
-        if (amI22.toLowerCase() === 'N' || amI22.toLowerCase() === "NO") {
+        let amNot22 = prompt("I am 22 years old?");
+        if (amNot22.toLowerCase() === 'N' || amNot22.toLowerCase() === "NO") {
             am22 = false;
         }
     }
 
-    let whatAnswer
+
+    let whatAnswer = true;
 
     while (whatAnswer) {
         let whatIsAnswer = prompt("Is the answer yes or no?");
