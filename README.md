@@ -1,1 +1,2 @@
 # 201-about-me
+added new features such as tons of loops and console logs to store numbers also using the console log to add points for correct guesses and using things like headers and list to display my text

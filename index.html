@@ -1,90 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About me project</title>
-        <style>
-            p {
-                color:rgb(0, 0, 0);
-            }
-            h1 {
-                color:rgb(0, 0, 0);
-            }
-        </style>
-    </head>
-    <body>
-        <h1>About me</h1>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>About me</h1>
         <p>
             Hello, my name is Caleb I am a student currently learning HTML and CSS. I like gaming and anime and music.
              I went o school at HomeLife academy which is a homeschooling orginization in memphis.
             I graduated highschool this year and now I am taking classes in Codeschool.
         </p>
-<script>
-    // Three prompts
-    let nameEntered = prompt("Please type your name here");
-    alert("Ok let's see how many questions you can get right" + " " + nameEntered );  
-    // console.log(nameEntered);
+        <h3>Top ten favorite games</h3>
+        <ul>
+          <li>Wind Waker</li>
+          <li>Persona 4 Golden</li>
+          <li>Danganronpa</li>
+          <li>Xenoblade Chronicles 2</li>
+          <li>Undertale</li>
+          <li>Minecraft</li>
+          <li>Dragon Ball Fighterz</li>
+          <li>Mario 3D World</li>
+          <li>Ocarina of time</li>
+          <li>League of Legends</li>
+        </ul>
 
+        <h3>Work Experience</h3>
+        <ul>
+          <li>No work Experience</li>
+          <li>Highschool Diploma</li>
+        </ul>
 
-    let wasIborn = true;
-
-    while (wasIborn)
-    
-    {
-        let wasBorn = prompt("Was I born in 2003");
-        if (wasBorn.toUpperCase() === 'Y' || wasBorn.toUpperCase() === "YES") {
-            if (wasIborn === true);
-            break;
-            //wasIborn = false;   
-        }
-    }
-
-
-    let doMusic = true;
-
-    while (doMusic)
-    {
-        let doMusicYes = prompt("Do I like instrumental music?");
-        if (doMusicYes.toUpperCase() === 'Y' || doMusicYes.toUpperCase() === "YES") {
-            doMusic = false;
-        }
-    }
-
-
-    let publicSchool = true;
-
-    while (publicSchool)
-    {
-        let homeSchool = prompt("Did i go to public school?");
-        if (homeSchool.toUpperCase() === 'N' || homeSchool.toUpperCase() === "NO") {
-            publicSchool = false;
-        }
-    }
-
-
-    let am22 = true;
-
-    while (am22)
-    {
-        let amNot22 = prompt("I am 22 years old?");
-        if (amNot22.toLowerCase() === 'N' || amNot22.toLowerCase() === "NO") {
-            am22 = false;
-        }
-    }
-
-
-    let whatAnswer = true;
-
-    while (whatAnswer) {
-        let whatIsAnswer = prompt("Is the answer yes or no?");
-        if (whatIsAnswer.toUpperCase() === 'Y' || whatIsAnswer.toUpperCase() === "YES") {
-            whatAnswer = false;
-        }
-    }
-    
-    
-</script>
-</body>
+        <script src="scripts.js"></script>
+        <script src="style.css"></script>
+  </body>
 </html>
