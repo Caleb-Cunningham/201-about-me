@@ -1,3 +1,52 @@
+//functions
+function firstQuestion() {
+  let wasIborn = true
+}
+firstQuestion();
+
+
+function secondQuestion() {
+  let doMusic = true
+}
+secondQuestion();
+
+
+function thirdQuestion() {
+  let publicSchool = true
+}
+thirdQuestion();
+
+
+function fourthQuestion() {
+  let am22 = true
+}
+fourthQuestion();
+
+
+function fifthQuestion() {
+  let whatAnswer = true
+}
+fifthQuestion();
+
+
+function isItRed() {
+  let answers = ['Roses', 'Apple']
+}
+isItRed();
+
+
+function numberGuesser() {
+  let correctNumber = 3;
+}
+numberGuesser();
+
+function scoreTracker() {
+  let x = 0;
+}
+scoreTracker();
+
+
+//score variable
 let x = 0;
 // Three prompts
 let nameEntered = prompt("Please type your name here");
@@ -8,7 +57,6 @@ alert("Ok let's see how many questions you can get right" + " " + nameEntered);
 let wasIborn = true;
 
 
-
 while (wasIborn) {
   let wasBorn = prompt("Was I born in 2003");
   if (wasBorn.toUpperCase() === 'Y' || wasBorn.toUpperCase() === "YES") {
@@ -16,11 +64,12 @@ while (wasIborn) {
     console.log(x++)
     break;
     //wasIborn = false;   
+    }
   }
-}
 
 
 let doMusic = true;
+
 
 while (doMusic) {
   let doMusicYes = prompt("Do I like instrumental music?");
@@ -29,7 +78,6 @@ while (doMusic) {
     doMusic = false;
   }
 }
-
 
 let publicSchool = true;
 
@@ -104,6 +152,8 @@ for (let i = 0; i < 6; i++) {
 }
 
 let finished = prompt("Nice job you finished with" + " " + x);
+
+
 
 
 
