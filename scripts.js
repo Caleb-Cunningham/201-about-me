@@ -1,4 +1,4 @@
-//functions
+//Functions
 function firstQuestion() {
   let wasIborn = true
 }
@@ -46,14 +46,17 @@ function scoreTracker() {
 scoreTracker();
 
 
-//score variable
+//Score variable
 let x = 0;
-// Three prompts
+
+
+//Name prompt
 let nameEntered = prompt("Please type your name here");
 alert("Ok let's see how many questions you can get right" + " " + nameEntered);
-// console.log(nameEntered);
 
 
+
+//Questions begin
 let wasIborn = true;
 
 
@@ -62,10 +65,9 @@ while (wasIborn) {
   if (wasBorn.toUpperCase() === 'Y' || wasBorn.toUpperCase() === "YES") {
     if (wasIborn === true);
     console.log(x++)
-    break;
-    //wasIborn = false;   
-    }
+    break;  
   }
+}
 
 
 let doMusic = true;
@@ -117,7 +119,7 @@ while (whatAnswer) {
 
 
 let correctNumber = 3;
-//let numberGuess = true;
+
 
 for (let i = 0; i < 4; i++) {
   let numberSaved = prompt("Pick a number between 1 and 5");
@@ -152,8 +154,6 @@ for (let i = 0; i < 6; i++) {
 }
 
 let finished = prompt("Nice job you finished with" + " " + x);
-
-
 
 
 
